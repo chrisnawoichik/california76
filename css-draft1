@@ -1,0 +1,119 @@
+.ast-container {
+margin-left:auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 10px;
+}
+.ast-header-break-point .main-header-bar-navigation {
+width: -webkit-calc(100% + 10px);
+width: calc(100% + 10px);
+margin: 0 -20px;
+}
+.ast-row {
+width: 100%;
+}
+p, entry-content p {margin-top:.8em}
+.site-header .site-description {
+margin-top:inherit
+}
+.single .entry-header {
+margin-bottom:.5em
+}
+blockquote {
+margin: 1.5em .5em 1.5em .5em;
+padding: 0em;
+font-size: 1em;
+color:#0e354c;
+line-height: inherit;
+position: relative;
+}
+blockquote a {
+color:#3b3b3b;
+}
+.wp-caption .wp-caption-text {
+margin: .3em 0;
+font-size:15px
+}
+.wp-caption {
+margin-bottom:0em;
+}
+.single.ast-separate-container .ast-author-meta {
+padding: 2em 1em 2em;
+}
+.ast-separate-container .ast-archive-description, .ast-separate-container .ast-author-box {
+margin: 0;
+padding: 3em 0.2em 3em;
+background-color:white
+}
+.ast-archive-description p {
+font-size: 1em;
+font-weight:500
+}
+@media (min-width:720px) {
+.main-header-bar {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+background-color:#56c4ff;
+padding-left:20px;
+padding-right:20px
+}
+.site-title a, .site-title a:focus, .site-title a:hover, .site-title a:visited {
+color: white;
+font-weight:600;
+text-shadow: 2px 2px 4px #000000
+}
+.entry-meta {
+text-transform:uppercase;
+font-size:18px;
+font-weight:600
+}
+}
+@media (min-width:769px){
+.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single {
+background-color: #fff;
+border-bottom: 1px solid #eee;
+margin: 0;
+padding-left:1em;
+padding-right:1em;
+padding-top:0;
+padding-bottom:7em
+}
+#primary {
+margin: 2em 0;
+}
+}	
+@media (max-width:416px){
+.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single {
+background-color: #fff;
+border-bottom: 1px solid #eee;
+margin: 0;
+padding-left:0.2em;
+padding-right:0.2em;
+padding-top:0;
+padding-bottom:5em
+}
+.main-header-bar {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+background-color:#56c4ff
+}
+.site-title a, .site-title a:focus, .site-title a:hover, .site-title a:visited {
+color: white;
+font-weight:600;
+text-shadow: 2px 2px 4px #000000
+}		
+}
+.author_bio_section{
+background: none repeat scroll 0 0 #F5F5F5;
+padding: 15px;
+border: 1px solid #ccc;
+margin-bottom:30px
+}
+.author_name{
+font-size:16px;
+font-weight: bold;
+}
+.author_details img {
+border: 1px solid #D8D8D8;
+border-radius: 50%;
+float: left;
+margin: 0 10px 10px 0;
+}		
